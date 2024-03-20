@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
 /* Remove all default padding and margin */
 * {
     padding:0;
@@ -12,13 +15,14 @@ body {
     flex-direction: column;
     /* Generic project styles*/
     color: #3a3a3a;
-
+    font-family: 'lato', sans-serif;
 }
 
 /* Header */
 header {
     background-color: aqua;
 }
+
 /* Main content */
 main {
     background-color: rgb(191, 255, 13);
