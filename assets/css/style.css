@@ -31,6 +31,17 @@ header a {
     text-decoration: none;
     color: #3a3a3a;
 }
+#menu {
+    padding: 0;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+#menu > li {
+    margin-bottom: 1em;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
