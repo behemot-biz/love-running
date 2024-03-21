@@ -289,9 +289,30 @@ hr {
         text-align: end;
         align-self: flex-end;
     }
-    /* Gallery */
+    /* Gallery page*/
     #photos {
         column-count: 3;
+    }
+
+    /* Signup page */
+    #signup {
+    background-position: center;
+    position: relative;
+    }
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        top: 150px;
+        left: 10%;
+
+    }
+    .text-input:hover {
+    border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 
 }
@@ -307,7 +328,7 @@ hr {
 
 }
 
-/* Large devices (laptops and desktops, 992px and up) */
+/* Large devices (laptops and desktops,1200px and up) */
 @media screen and (min-width: 1200px) {
     #benefits {
         display:flex;
