@@ -163,6 +163,17 @@ hr {
     color: #fafafa;
 }
 
+/* Gallery page */
+#photos img {
+    width:100%;
+    /* To ensure alt text from broken image links is visible */
+    line-height: 1em;
+}
+#photos {
+    /* Remove the white space between images */
+    line-height: 0; 
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
